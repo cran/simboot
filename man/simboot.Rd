@@ -8,8 +8,8 @@
 \description{
   Package \pkg{simboot} provides estimation of simultaneous bootstrap and
   asymptotic confidence intervals for diversity indices, namely the
-  Shannon and the Simpson index. Possible pre-specified
-  multiple-comparison types are Dunnett and Tukey. Further user-defined
+  Shannon and the Simpson index. Several pre-specified
+  multiple-comparison types are available. Further user-defined
   contrast matrices are applicable. In addition, \pkg{simboot} estimates
   adjusted as well as unadjusted \eqn{p}--values for two of the three
   proposed bootstrap methods. Further simboot allows for comparing
@@ -21,15 +21,15 @@
 \tabular{ll}{
   Package: \tab simboot\cr
   Type: \tab Package\cr
-  Version: \tab 0.1-6\cr
-  Date: \tab 2012-02-28\cr
+  Version: \tab 0.1-65\cr
+  Date: \tab 2012-08-02\cr
   License: \tab GPL-2\cr
   LazyLoad: \tab yes\cr
 }
 }
 \author{
-  Ralph Scherer
-  Philip Pallmann
+  Ralph Scherer\\
+  Philip Pallmann\\
   Maintainer: Ralph Scherer <scherer.ralph@mh-hannover.de>
 }
 \references{
@@ -62,7 +62,7 @@
   Scherer, R. (2010) Simultaneous Confidence Intervals for Biodiversity
     Indices with Application to Overdispersed Multinomial Count Data
   \url{http://www.biostat.uni-hannover.de/thesis.html}
-  
+
   \emph{Jost, L. (2008)} G(ST) and its relatives do not measure
   differentiation. Molecular Ecology, 17, 4015-4026.
 

@@ -1,5 +1,5 @@
 sbdiv <-
-  function(X, f, theta = c("Shannon", "Simpson"), type = c("Dunnett", "Tukey"), cmat = NULL, method = c("WYht", "tsht", "rpht", "asht"), conf.level = 0.95, alternative = c("two.sided", "less", "greater"), R = 2000, base = 1,...)
+  function(X, f, theta = c("Shannon", "Simpson"), type = c("Dunnett", "Tukey", "Sequen", "AVE", "Changepoint", "Williams", "Marcus", "McDermott", "UmbrellaWilliams", "GrandMean"), cmat = NULL, method = c("WYht", "tsht", "rpht", "asht"), conf.level = 0.95, alternative = c("two.sided", "less", "greater"), R = 2000, base = 1,...)
   {
     args <- list(...)
     theta <- match.arg(theta)

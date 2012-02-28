@@ -1,4 +1,3 @@
-
 contrMat <- function(n, type = c("Dunnett", "Tukey", "Sequen", "AVE",
                                  "Changepoint", "Williams", "Marcus",
                                  "McDermott", "UmbrellaWilliams", "GrandMean"),
