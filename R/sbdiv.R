@@ -28,7 +28,7 @@ sbdiv <-
     }
     if (is.null(cmat))
       {
-        cmat <- contrmat(n = n, type = type, base = base)
+        cmat <- contrMat(n = n, type = type, base = base)
       }
     else {
       if (ncol(cmat) != k) {

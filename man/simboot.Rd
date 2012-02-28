@@ -3,8 +3,7 @@
 \alias{simboot}
 \docType{package}
 \title{
-  Simultaneous Confidence Intervals and Adjusted p--values for
-  Diversity Indices
+  Simultaneous inference for diversity indices.
 }
 \description{
   Package \pkg{simboot} provides estimation of simultaneous bootstrap and
@@ -13,20 +12,24 @@
   multiple-comparison types are Dunnett and Tukey. Further user-defined
   contrast matrices are applicable. In addition, \pkg{simboot} estimates
   adjusted as well as unadjusted \eqn{p}--values for two of the three
-  proposed bootstrap methods.
+  proposed bootstrap methods. Further simboot allows for comparing
+  biological diversities of two or more groups with simultaneously
+  testing a user-defined selection of Hill numbers of orders q, which
+  are considered appropriate and useful indices for measuring diversity.
 }
 \details{
 \tabular{ll}{
   Package: \tab simboot\cr
   Type: \tab Package\cr
-  Version: \tab 0.1-5\cr
-  Date: \tab 2010-11-12\cr
+  Version: \tab 0.1-6\cr
+  Date: \tab 2012-02-28\cr
   License: \tab GPL-2\cr
   LazyLoad: \tab yes\cr
 }
 }
 \author{
   Ralph Scherer
+  Philip Pallmann
   Maintainer: Ralph Scherer <scherer.ralph@mh-hannover.de>
 }
 \references{
@@ -58,7 +61,11 @@
 
   Scherer, R. (2010) Simultaneous Confidence Intervals for Biodiversity
     Indices with Application to Overdispersed Multinomial Count Data
-  \url{http://www.biostat.uni-hannover.de/research/thesis/MScScherer20100525.pdf
+  \url{http://www.biostat.uni-hannover.de/thesis.html}
+  
+  \emph{Jost, L. (2008)} G(ST) and its relatives do not measure
+  differentiation. Molecular Ecology, 17, 4015-4026.
+
+  Corresponding method \code{\link{mcpHill}}
   }
-  }
-\keyword{ package }
+\keyword{ htest, nonparametric, multivariate }

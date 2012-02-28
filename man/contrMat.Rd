@@ -1,11 +1,13 @@
-\name{contrmat}
-\alias{contrmat}
+\name{contrMat}
+\alias{contrMat}
 \title{ Contrast Matrices }
 \description{
-  Computes contrast matrices for Dunnett's and Tukey's multiple comparison procedures.
+  Computes contrast matrices for several multiple comparison procedures.
 }
 \usage{
-contrmat(n, type = c("Dunnett", "Tukey"), 
+contrMat(n, type = c("Dunnett", "Tukey", "Sequen", "AVE", 
+                     "Changepoint", "Williams", "Marcus", 
+                     "McDermott", "UmbrellaWilliams", "GrandMean"), 
          base = 1)
 }
 \arguments{
@@ -21,8 +23,8 @@ contrmat(n, type = c("Dunnett", "Tukey"),
   The matrix of contrasts with appropriate row names is returned. 
 }
 \note{
-  Function \code{contrmat} is adapted from function \code{contrMat} in package \pkg{multcomp}
-}
+  Function \code{contrMat} is adapted from package \pkg{multcomp}
+  }
 \references{
   Frank Bretz, Alan Genz and Ludwig A. Hothorn (2001), On the numerical 
   availability of multiple comparison procedures. \emph{Biometrical Journal},
@@ -31,8 +33,21 @@ contrmat(n, type = c("Dunnett", "Tukey"),
 \examples{
  n <- c(10,20,30,40)
  names(n) <- paste("group", 1:4, sep="")
- contrmat(n)	# Dunnett is default
- contrmat(n, base = 2)	# use second level as baseline
- contrmat(n, type = "Tukey")
+ contrMat(n)	# Dunnett is default
+ contrMat(n, base = 2)	# use second level as baseline
+ contrMat(n, type = "Tukey")
+ contrMat(n, type = "Sequen")
+ contrMat(n, type = "AVE")
+ contrMat(n, type = "Changepoint")
+ contrMat(n, type = "Williams")
+ contrMat(n, type = "Marcus")
+ contrMat(n, type = "McDermott")
+ ### Umbrella-protected Williams contrasts, i.e. a sequence of 
+ ### Williams-type contrasts with groups of higher order 
+ ### stepwise omitted
+ contrMat(n, type = "UmbrellaWilliams")
+ ### comparison of each group with grand mean of all groups
+ contrMat(n, type = "GrandMean")
+
 }
 \keyword{misc}

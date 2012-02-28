@@ -1,11 +1,8 @@
 \name{sbdiv}
 \alias{sbdiv}
 \title{
-  Main function to perform simultaneous bootstrap or asymptotic
-  confidence intervals and adjusted as well as unadjusted
-  p--values for the Shannon or the Simpson index. P--value
-  estimation is only possible for method --WYht-- and
-  --tsht--.
+  Perform simultaneous confidence intervals or adjusted p--values
+  for the Shannon and the Simpson index. 
 }
 \description{
   Function \code{sbdiv} estimates simultaneous confidence intervals for the
@@ -121,7 +118,7 @@ sbdiv(X, f, theta = c("Shannon", "Simpson"), type = c("Dunnett",
 
   Scherer, R. (2010) Simultaneous Confidence Intervals for Biodiversity
     Indices with Application to Overdispersed Multinomial Count Data
-  \url{http://www.biostat.uni-hannover.de/research/thesis/MScScherer20100525.pdf}
+  \url{http://www.biostat.uni-hannover.de/thesis.html}
 }
 \author{
 Ralph Scherer
