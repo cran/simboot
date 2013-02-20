@@ -1,8 +1,8 @@
 Package: simboot
 Type: Package
 Title: Simultaneous inference for diversity indices.
-Version: 0.1-66
-Date: 2012-08-21
+Version: 0.2-0
+Date: 2013-02-20
 Author: Ralph Scherer, Philip Pallmann
 Maintainer: Ralph Scherer <scherer.ralph@mh-hannover.de>
 Description: Package simboot provides estimation of simultaneous
@@ -19,6 +19,7 @@ Description: Package simboot provides estimation of simultaneous
 License: GPL-2
 Depends: boot, mvtnorm
 LazyLoad: yes
-Packaged: 2012-08-21 19:21:40 UTC; ralph
+Packaged: 2013-02-26 09:07:30 UTC; schererr
+NeedsCompilation: no
 Repository: CRAN
-Date/Publication: 2012-08-22 07:53:22
+Date/Publication: 2013-02-26 13:22:03

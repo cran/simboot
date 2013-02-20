@@ -1,6 +1,6 @@
-fc5753b775399432f7a4bed1f1c1021e *DESCRIPTION
-5bf5efbf4d77f0e1e1a1557a938c0c87 *NAMESPACE
-54e9a3a8734ca7897e48b5c8d60792bd *NEWS
+7b35c01344129c6b26605bd93f41a314 *DESCRIPTION
+dec29ef9f67be328804b68bd44f7cdf1 *NAMESPACE
+790ae5b2adc3b4700dab6283c26fa61e *NEWS
 17e5d26ddc06444ace4bb08526a2be89 *R/Boutrp.R
 be4a393a3c71a699e1e7816be503bb42 *R/CCdrp.R
 2e1bf1e44b78437613af07335ed60980 *R/SCIrp.R
@@ -15,9 +15,9 @@ ad26b23f7423508bfddd9506a69514cf *R/estShannonf.R
 df105006af38347e243b8ded702ac6f4 *R/estSimpson.R
 d4542b1f3ead5dfb1f3dce984ddc170b *R/estSimpsonf.R
 9d31e11da3e547c60c05eb2ade303085 *R/estThetaRow.R
-790ed06853c0253da8df6b8a4d55a725 *R/mcpHill.R
+30b281af9b777c81a7da80178f34ad82 *R/mcpHill.R
 b18113a2ac65c2214557ad5066e72bbe *R/rpht.R
-7d6c8cf2def4835a360826d8ec06391d *R/sbdiv.R
+2a5ca8ded5cf09cec664d5cbdec2b1f9 *R/sbdiv.R
 49c8bd2c56dc68b69f83f4478734ab3a *R/tsht.R
 cd830e59288297b2e77a99ebe73979d7 *R/waldci.R
 a2d9628b743fd89189225cdda40142c5 *data/Bacteria.rda
@@ -38,11 +38,11 @@ f08009d67e475107d0b6f45c66a72281 *man/estShannonf.Rd
 079fcc628aa7687167427c43574ffa8a *man/estSimpson.Rd
 1d0e7a77aef62c8b75125b8b14c443ae *man/estSimpsonf.Rd
 2fc53cc983b8b62bcfe758eb981a267f *man/estThetaRow.Rd
-3a2fc30bcc923f3dad12dc9368adb3f0 *man/mcpHill.Rd
+794cd55a9dc79bd1101e3cafa36a8cc8 *man/mcpHill.Rd
 e1a40155e367bec301c6c69b93983ea8 *man/predatGM.Rd
 d2ec43a2ae5567d5df6ac875596d9ff8 *man/rpht.Rd
 2ec6be4cb5264485eaf9cf9028258f37 *man/saproDipGM.Rd
-0866e3d10e939f99a324f44c90efa1e8 *man/sbdiv.Rd
-06265572c1f267ae24c9a552398f1585 *man/simboot.Rd
+dc1b568e6a438ee5c1d02e36042f73c9 *man/sbdiv.Rd
+1a636af42c7cea5c065e2a2c14de38a8 *man/simboot.Rd
 7cdb039059da0d043134bc7bc7046c90 *man/tsht.Rd
 1f191ac77d8b272a1d06976e43044d8a *man/waldci.Rd
