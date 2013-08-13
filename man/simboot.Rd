@@ -21,9 +21,9 @@
 \tabular{ll}{
   Package: \tab simboot\cr
   Type: \tab Package\cr
-  Version: \tab 0.2-0\cr
-  Date: \tab 2013-02-20\cr
-  License: \tab GPL-2\cr
+  Version: \tab 0.2-4\cr
+  Date: \tab 2013-08-13\cr
+  License: \tab GPL (>= 2)\cr
   LazyLoad: \tab yes\cr
 }
 }
